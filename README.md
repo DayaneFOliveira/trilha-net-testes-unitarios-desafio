@@ -78,4 +78,4 @@ O projeto está estruturado da seguinte maneira:
 
 
 ## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+O código de testes foi corrigido com sucesso!

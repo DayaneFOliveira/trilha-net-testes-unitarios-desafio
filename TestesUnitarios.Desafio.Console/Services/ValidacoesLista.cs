@@ -29,5 +29,44 @@ namespace TestesUnitarios.Desafio.Console.Services
         {
             return lista.Min();
         }
+
+        public List<int> RemoverNumero10(List<int> lista)
+        {
+            var listaSemNumero10 = lista.Where(x => x != 10);
+            return listaSemNumero10.ToList();
+        }
+
+        public List<int> MultiplicarNumerosListaPor2(List<int> lista)
+        {
+            var listaMultiplicada = lista.Select(x => x * 2).ToList();
+            return listaMultiplicada;
+        }
+
+        public List<int> Retornar9ComoMaiorNumeroLista(List<int> lista)
+        {
+            var maiorNumero = 0;
+            foreach (var numero in lista)
+            {
+                if (numero > maiorNumero)
+                {
+                    maiorNumero = numero;
+                }
+            }
+             return new List<int> { maiorNumero };
+        }
+
+        public List<int> RetornarOitoComoMenorNumeroLista(List<int> lista)
+        {
+            var menorNumero = 0;
+            foreach (var numero in lista)
+            {
+                if (numero < menorNumero)
+                {
+                    menorNumero = numero;
+                }
+            }
+             return new List<int> { menorNumero };
+        }
+
     }
 }
