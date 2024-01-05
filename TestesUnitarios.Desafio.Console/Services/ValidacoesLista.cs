@@ -57,7 +57,7 @@ namespace TestesUnitarios.Desafio.Console.Services
 
         public List<int> RetornarOitoComoMenorNumeroLista(List<int> lista)
         {
-            var menorNumero = 0;
+            var menorNumero = -8;
             foreach (var numero in lista)
             {
                 if (numero < menorNumero)

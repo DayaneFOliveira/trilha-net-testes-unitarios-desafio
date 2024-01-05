@@ -39,7 +39,7 @@ public class ValidacoesListaTests
     {
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
-        var numeroParaProcurar = new List<int> {10};
+        var numeroParaProcurar = new List<int> {5, -1, -8, 9 };
 
         // Act
         var resultado = _validacoes.RemoverNumero10(lista);
